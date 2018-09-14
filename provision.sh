@@ -1,3 +1,3 @@
 #! /bin/bash
 
-ansible-playbook remote.yml -i hosts
+ansible-playbook remote.yml -u root -i hosts
