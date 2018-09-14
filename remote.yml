@@ -1,0 +1,6 @@
+- hosts: some-other-server
+  connection: ssh
+  become: yes
+  become_user: root
+  roles:
+    - nginx
